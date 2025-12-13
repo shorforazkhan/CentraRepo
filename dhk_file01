@@ -4,6 +4,17 @@ package main
 
 import "fmt"
 
+/*
+ var x int = 100
+ var x = 100
+*/
+
+// int, float, bool, string 
+
 func main () {
-	fmt.Println("Hello World")
+x := 100
+x = 50
+const p = 60
+	fmt.Println(x)
+	fmt.Println(p)
 }
