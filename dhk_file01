@@ -1,9 +1,22 @@
+# Basic Numerical Operation
 
+'''
+Addition
+Subtraction
+Multiplication
+Division
+Floor division
+Modulas
+Exponentiation
+'''
 
-package main
+a = 6
+b = 4
 
-import "fmt"
-
-func main () {
-	fmt.Println("Hello World")
-}
+print(a+b)
+print(a-b)
+print(a*b)
+print(a/b)
+print(a//b)
+print(a%b)
+print(a**b)
